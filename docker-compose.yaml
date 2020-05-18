@@ -10,7 +10,7 @@ x-common-variables: &common-variables
   management.endpoints.web.exposure.include: info,health,beans,bindings
 
 x-database-variables: &database-variables
-  spring.liquibase.enabled: 'true'
+  spring.liquibase.enabled: 'false'
   spring.datasource.username: root
   spring.datasource.password: root
   spring.datasource.driver-class-name: com.mysql.jdbc.Driver
